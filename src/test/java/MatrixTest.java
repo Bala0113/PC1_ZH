@@ -10,8 +10,7 @@ public class MatrixTest {
     private static final Random RANDOM_GENERATOR = new Random();
     private static final int MATRIX_LENGTH = 5;
 
-    // TODO: Uncomment testcase to test countNumbersDivisibleBySeven method.
-    /*
+
     @Test
     public void testCountNumbersDivisibleBySeven() {
         int[][] matrix = {
@@ -24,10 +23,7 @@ public class MatrixTest {
 
         assertEquals(3, Matrix.countNumbersDivisibleBySeven(matrix));
     }
-    */
 
-    // TODO: Uncomment testcase to test columnsWithMax method.
-    /*
     @Test
     public void testColumnsWithMax() {
         int[][] matrix = {
@@ -45,5 +41,5 @@ public class MatrixTest {
         assertTrue(actual.contains(2));
         assertTrue(actual.contains(4));
     }
-    */
+
 }
