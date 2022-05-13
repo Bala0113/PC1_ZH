@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Chef {
     protected ArrayList<String[]> recipes= new ArrayList<>();
@@ -16,7 +17,7 @@ public class Chef {
     public void removeRecipe(String name){
         for (int i = 0; i < recipes.size(); i++)
         {
-            if(recipes.get(i)[0]==name)
+            if(Objects.equals(recipes.get(i)[0], name))
             {
                 recipes.remove(i);
             }
